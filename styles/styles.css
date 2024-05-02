@@ -1,3 +1,4 @@
+/* Body Styles */
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -13,7 +14,16 @@ h1 {
     color: steelblue;
 }
 
-img {
+p {
+    padding: 0;
+}
+
+/* Main Styles */
+main {
+    max-width: 840px;
+}
+
+main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
@@ -21,6 +31,30 @@ img {
     box-shadow: 0 0 30px gray;
 }
 
-p {
-    padding: 10px;
+/* Aside Styles */
+aside {
+    width: 20em ;
+    margin: 1em ;
+    border: 0.5rem outset #640E23  ;
+    padding: 1em ;
+    background-color: #E2C8B1 ;
+    color: #640E23 ;
+    text-align: center ;
+    border-radius: 6px ;
+    
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #d9d9d9 ;
+    padding: 1em;
+    margin-top: 15px;
+    border-top: 1px solid black;
+    text-align: center;
+
 }
