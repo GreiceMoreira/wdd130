@@ -3,32 +3,37 @@
 :root {
     --primary-color: #134265 ;
     --secondary-color: #4C7298 ;
-    --accent-color: #D7F3FF ;
-    --additional-accent-color: #E19F20 ;
+    --accent1-color: #D7F3FF ;
+    --accent2-color: #E19F20 ;
 
     --heading-font: "Poetsen One", sans-serif ;
-    --paragraph-or-default-font: "Roboto Flex", sans-serif;
+    --paragraph-font: "Roboto Flex", sans-serif;
 
-    --navigation-background-color: #D7F3FF ;
-    --navigation-link-color: #134265 ;
-    --navigation-hover-link-color: #E19F20 ;
-    --navigation-hover-background-color: #fff ;
+    --nav-background-color: #D7F3FF ;
+    --nav-link-color: #134265 ;
+    --nav-hover-link-color: #E19F20 ;
+    --nav-hover-background-color: #fff ;
 }
 
 body {
-    font-family: var(--paragraph-or-default-font);
+    font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
 header {
     padding: 20px;
-    background-color: var(--accent-color);
+    background-color: var(--accent1-color);
 }
 
 p {
@@ -36,23 +41,23 @@ p {
 }
 
 nav {
-    background-color: var(--navigation-background-color);
+    background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
 }
 
 nav a {
     display: block;
-    color: var(--navigation-link-color);
+    color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
 
 nav a:link, nav a:visited {
-    color: var(--navigation-link-color);
+    color: var(--nav-link-color);
 }
 
 nav a:hover {
-    color: var(--navigation-hover-link-color);
-    background-color: var(--navigation-hover-background-color);
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
 }
