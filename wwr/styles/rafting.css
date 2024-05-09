@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+:root {
+    --primary-color: #134265 ;
+    --secondary-color: #4C7298 ;
+    --accent1-color: #D7F3FF ;
+    --accent2-color: #E19F20 ;
+
+    --heading-font: "Poetsen One", sans-serif ;
+    --paragraph-font: "Roboto Flex", "Arial", sans-serif;
+
+    --nav-background-color: #D7F3FF ;
+    --nav-link-color: #134265 ;
+    --nav-hover-link-color: #E19F20 ;
+    --nav-hover-background-color: #fff ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--paragraph-font);
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1 {
+    font-family: var(--heading-font);
+    text-shadow: 0.5px 0.5px 1px var(--primary-color), 0 0 1em white, 0 0 0.2em white;
+}
+
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+/* Header */
+
+header{
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+header img {
+    width: 100px;
+}
+
+/*Main */
+main {
+    margin-bottom: 5px;
+}
+
+article {
+    position: absolute;
+    bottom: 250px;
+    left: 70px;
+    right: 70px;
+    background-color:rgba(225, 159, 32, 0.98) ;
+}
+
+article p {
+    color: var(--primary-color);
+    /* text-shadow: 0.5px 0.5px 1px var(--primary-color), 0 0 1em white, 0 0 0.2em white; */
+}
+
+article img {
+    width: 180px !important; 
+    height: auto;
+    float: right;
+}
+
+section {
+    margin-left: 5px;
+}
+
+/*Footer*/
+
+footer {
+    position: absolute;
+    background-color: var(--accent1-color);
+    border-top: 1px solid black;
+    padding: 1em;
+    margin-top: 15px;
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+
+
+/* Classes */
+
+.hero {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    font-size: 70px;
+}
+
+.sociallinks img {
+    width: 20px;
+    height: auto;
+}
