@@ -25,7 +25,7 @@ header, .grid, footer {
 }
 
 nav {
-    background-color: steelblue;
+    background-color: #B22222;
     padding: 1rem;
     display: flex;
     justify-content: space-evenly;
@@ -33,7 +33,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: #F0DEB4;
     display: block;
     padding: 0.5rem;
     font-size: 1.2rem;
@@ -53,11 +53,12 @@ p {
 
 a {
     text-decoration: none ;
-    font-weight: bold;
 }
 
 a:hover {
     text-decoration: underline;
+    font-weight: bold;
+    
   }
 
 /* Main Styles */
