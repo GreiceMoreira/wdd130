@@ -202,8 +202,14 @@ footer {
 }
 
 .adventure img{
-    /* min-width: 250px; */
     display: block;
     width: 100%;
     height: auto;
 }
+
+figcaption {
+    background-color: rgba(225, 159, 32, 0.1);
+    color: black;
+    padding: 3px;
+    text-align: center;
+  }
