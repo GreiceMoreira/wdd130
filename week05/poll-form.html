@@ -7,7 +7,7 @@
         <meta name="description" content="Greice Moreira's BYU-Idaho WDD 130 course home page">
         <meta name="author" content="Greice Moreira">
 
-        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="styles/poll-form.css">
     <body>
 
         <header>
@@ -19,20 +19,29 @@
             <form action="">
                 <fieldset>
                     <legend>Contact Information</legend>
-                    <label>Full Name: <input type="text" id="fullname" name="fullname"> </label>
-                    <label>Email: <input type="email" id="useremail" name="useremail"> </label>     
+                    <div class="form-item column2">
+                        <label>Full Name: <input type="text" id="fullname" name="fullname"> </label>
+                    </div>
+                    <div class="form-item column2">
+                        <label>Email: <input type="email" id="useremail" name="useremail"> </label> 
+                    </div>
+    
                 </fieldset>
                 <fieldset>
                     <legend>Questions</legend>
-                    <label for="browser">What is your favorite browser? </label>
-                    <select name="browser" id="browser">
-                        <option value="chrome">Chrome</option>
-                        <option value="safari">Safari</option>
-                        <option value="firefox">Firefox</option>
-                        <option value="other">Other</option>
-                    </select>
-                    <label for="pet">Do you have a household pet?</label>
-                    <input type="checkbox" name="pet" id="pet">
+                    <div class="form-item column1">
+                        <label for="browser">What is your favorite browser? </label>
+                        <select name="browser" id="browser">
+                            <option value="chrome">Chrome</option>
+                            <option value="safari">Safari</option>
+                            <option value="firefox">Firefox</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-item column1">
+                        <label for="pet">Do you have a household pet?</label>
+                        <input type="checkbox" name="pet" id="pet">
+                    </div>
                     <label for="feedback">List the places you have lived:</label>
                     <textarea name="feedback" id="feedback" cols="30" rows="4" placeholder="Montreal Québec, Paris France, Seul South Korean "></textarea>
                     <button type="submit">Submit Poll</button>
