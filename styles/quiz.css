@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poetsen+One&display=swap');
 
-/* MONTSERRAT REGULAR 400 , MONTSERRAT LIGHT 300 ,  POETSEN ONE */
-
 * {
     margin: 0;
     padding: 0;
@@ -50,7 +48,7 @@ fieldset {
 
 div {
     padding: .5rem;
-    
+
 }
 
 
