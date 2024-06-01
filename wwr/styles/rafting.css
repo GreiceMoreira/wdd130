@@ -159,6 +159,11 @@ footer {
     font-size: 70px;
 }
 
+.hero a {
+    position: absolute;
+    bottom: 20px;
+    right: 100px;
+}
 /* Class sociallinks */
 
 .sociallinks img {
@@ -199,6 +204,7 @@ footer {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 1rem;
     justify-items: center;
+    margin-top: 50px;
 
 }
 
@@ -343,5 +349,81 @@ button:hover {
     background-color: var(--accent2-color);
 }
 
+/*Grid experience Home Page*/
+
+.experience {
+    position: relative;
+    margin-bottom: 10px;
+    background-color: rgba(225, 159, 32, 0.1);
+    padding-bottom: 30px;
+
+}
+
+.experience article {
+    position: absolute;
+    bottom: 90px;
+    left: 300px;
+    right: 50px;
+    background-color:rgba(240, 240, 240, 0.88) ;
+}
+
+.experience article p {
+    color: var(--primary-color);
+    /* text-shadow: 0.5px 0.5px 1px var(--primary-color), 0 0 1em white, 0 0 0.2em white; */
+}
+
+.experience img {
+    display: block;
+    width: 400px;
+}
+
+.experience h3 ,h2 {
+    padding: 10px;
+}
 
 
+.experience a {
+    position: absolute;
+    margin: 0.3rem;
+    right: 50px;
+
+}
+
+/*Form newsletter*/
+
+.newsletter {
+    background-color: rgba(225, 159, 32, 0.1);
+}
+
+.newsletter fieldset {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.newsletter button {
+    max-width: 100px;
+    margin-left: 25px;
+
+
+    
+}
+
+.newsletter div {
+    margin-left: 25px;
+}
+
+.form_news {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color:  rgba(225, 159, 32, 0.1);
+}
+
+.form_news img {
+    max-height: 500px;
+    width: auto;
+
+}
